@@ -1,6 +1,10 @@
 # fix-rym
 custom javascript/css to re-render rateyourmusic so it doesn't look like trash
 
+progress:
+- i have only actually done the homepage
+- sorry
+
 things that need to be fixed that i cannot
 - non-square album covers render improperly
 - window resizing needs to be dealt with better i don't know how to do that help
