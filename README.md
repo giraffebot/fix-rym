@@ -5,6 +5,8 @@ using the [user javascript and css](https://chrome.google.com/webstore/detail/us
 
 since i assume you use rateyourmusic i'm ~giraffebot and if stuff goes wrong with this you should definitely message me about it
 
+right now it sorta loads slowly. i'm looking into ways to make some of it faster since a lot of it seems to run when the window loads. if you actually know something about this sort of thing you should tell me or make a pull request or something
+
 progress:
 - i have only actually done the homepage, although the navbar will presumably render everywhere
 - sorry
