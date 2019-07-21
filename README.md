@@ -7,12 +7,14 @@ since i assume you use rateyourmusic i'm ~giraffebot and if stuff goes wrong wit
 
 right now it sorta loads slowly. i'm looking into ways to make some of it faster since a lot of it seems to run when the window loads. if you actually know something about this sort of thing you should tell me or make a pull request or something
 
+focusing on simple javascript and doing css/drastic element repositioning later
+
 progress:
-- i have only actually done the homepage, although the navbar will presumably render everywhere
-- sorry
+- homepage
+- navbar
+- account settings are slightly better
 
 things i intend to do:
 - fix user profile pages (big boye)
-- make account settings easier to use
 - collapsible review guidelines (i'll make the collapsible super conspicuous don't worry)
 - make faqs easier to comb through (collapsible help categories)
