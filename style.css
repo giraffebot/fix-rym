@@ -22,7 +22,7 @@ div.main_searchbar {
 
 #navtop ul {
 	height: 3rem;
-	width: 641px;
+	width: 66%;
 }
 
 #navtop li {
@@ -50,14 +50,20 @@ div.main_searchbar {
 	display: none;
 }
 
-#navtop a {
+#navtop span.sub {
+	color: #fff;
+	font-weight: 700;
+	padding: 4px 7px;
+}
+
+#navtop a, #navtop span.sub {
 	line-height: 3rem;
 	padding-top: 0;
 	padding-bottom: 0;
 	font-size: 1.125rem;
 }
 
-#navtop a:hover {
+#navtop a:hover, #navtop span.sub:hover {
 	background: none;
 }
 
@@ -73,18 +79,18 @@ div.main_searchbar {
 	height: 3rem;
 }
 
-#navtop a.sub {
+#navtop a.sub, #navtop span.sub {
 	padding-bottom: 0;
 	margin-left: 0;
 }
 
-#navtop a.sub > *, #navtop a.sub {
+#navtop a.sub > *, #navtop a.sub, #navtop span.sub > *, #navtop span.sub {
 	height: 3rem;
 	padding-top: 0;
 	font-size: 1.125rem;
 }
 
-#navtop a.sub:hover {
+#navtop a.sub:hover #navtop span.sub:hover {
 	background-color: #0669a1;
 }
 
@@ -195,6 +201,7 @@ div.page_home_feature_header h2 {
 	border-bottom: none;
 	margin: 0;
 	padding: 10px;
+	padding-top: 0px;
 	padding-bottom: 0.3333rem;
 	font-weight: 700;
 }
@@ -331,7 +338,6 @@ div#frontcontentheader + #content > table {
 }
 
 #content > div.row > div:nth-child(2) {
-	transform: translateY(-12px);
 }
 
 div.page_home_feature img {
@@ -356,4 +362,82 @@ a.page_home_feature_link {
 
 #content > div.row > div:nth-child(2) > div:nth-child(5) > div > table > tbody > hr:nth-child(6) {
 	display: none;
+}
+
+span.spoiler {
+	background-color: #ddf;
+	border-color: #bbf;
+}
+
+.coverart_img {
+	border-radius: 7px;
+	visibility: visible;
+}
+
+div[class^=coverart_] {
+	border-radius: 7px;
+	background: none;
+}
+
+#loginthing > div {
+	max-height: 1em!important;
+	min-height: 1em!important;
+	height: 1em!important;
+}
+
+div.submenu_hidden {
+	padding-top: calc(6rem - 22px)!important;
+}
+
+#content > div.row > div:nth-child(2) > div.page_home_feature {
+	padding-top: 0;
+}
+
+#navtop a.sub:hover {
+	background: none;
+}
+
+div#pfp {
+	position: relative;
+	background: no-repeat 50% / 100%;
+	width: 400px;
+}
+
+div#pfp > img {
+	vertical-align: top;
+	width: 100%;
+	opacity: 0;
+}
+
+div#pfp > div {
+	position: absolute;
+	top: 0;
+	width: calc(100% - 20px);
+	background-color: rgba(0, 0, 0, 0.4);
+	margin: 0 auto;
+	padding: 8px 10px;
+}
+
+#signupcontainer {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: auto;
+}
+
+#mediumForm #go {
+	margin-top: 1em;
+}
+
+#profile_tab li {
+	background-color: #62aede;
+	border-right: 2px solid #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+#profile_tab a {
+	border-radius: 5px 5px 0 0;
+}
+
+#profile_tab a:hover {
+	background-color: #3e89b9;
 }
